@@ -9,7 +9,7 @@ var express = require("express"),
 // App Config
 
 
-mongoose.connect('mongodb://localhost:27017/blog_app', {
+mongoose.connect('mongodb://database/blog_app', {
     useMongoClient: true,
 });
 app.set("view engine", "ejs");
