@@ -1,0 +1,14 @@
+{
+  "name": "routes",
+  "version": "1.0.0",
+  "description": "routes test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "nads",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
