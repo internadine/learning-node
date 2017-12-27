@@ -3,8 +3,15 @@ services:
   blog:
     build: .
     image: blog
+    command:
+      - nodemon
+      - -L
+      - --inspect=0.0.0.0:5858
+    volumes:
+      - .:/app
     ports:
       - 3000:3000
+      - 5858:5858
     depends_on:
       - database
 
